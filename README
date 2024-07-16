@@ -1,0 +1,32 @@
+Weather Data Analysis with Python Pandas in Jupyter Notebook  
+· Exploratory Data Analysis over 70280 data elements answering different questions 
+Functions performed: 
+· File import in Jupyter using pd.read_csv(). 
+· Dataframe analysis using head(), shape. 
+· Dataframe index fetching using .index. 
+· Dataframe column fetching using .columns. 
+· Column-wise datatype fetching using .dtypes. 
+· Single column unique values fetching using .unique(). 
+· Column-wise no. of unique values fetching using .nunique(). 
+· Column-wise no. of null values fetching using .count(). 
+· Single column count of each unique value fetching using .value_counts(). 
+· Dataframe basic information fetching using .info(). 
+· Filtering to return all columns when weather is exactly clear. 
+· Grouping to return all columns when weather is exactly clear. 
+· Filtering to return all columns when wind speed is exactly 4 km/hr. 
+· Finding out all null values in data using .isnull(). 
+· Finding out total no. of null values in data using .isnull.sum(). 
+· Finding out non-null values in data using .notnull().sum(). 
+· Renaming column name using .rename() and inplace. 
+· Calculating mean visibility using .mean(). 
+· Calculating standard deviation of pressure using .std(). 
+· Calculating variance of Relative Humidity using .var(). 
+· Finding all instances where Snow was recorded using filtering. 
+· Finding instances having ‘Snow’ in their names using str.contains(). 
+· Finding first and last instances having ‘Snow’ using .head() and .tail(). 
+· Finding all instances where speed is above 24 and visibility is 25 using filtering with ‘&’ operator. 
+· Finding mean value of each column against Weather Condition using groupby()  and mean(). 
+· Finding min. and max. of each column against ‘Weather Condition’ using groupby(), .min() and .max(). 
+· Showing all records where weather condition is Fog using filtering. 
+· Finding all instances where 'Weather is clear' or 'Visibility is above 40' using filtering with ‘|’ operator. 
+· Finding all instances where 'Weather is clear' and 'Relative humidity is greater than 50’ or Visibility is above 40 using filtering and ‘&’ and ‘|’ operator. 
